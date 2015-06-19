@@ -16,14 +16,14 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-	}
+ 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
 	body {
-		line-height: 1;
+		line-height: 0;
 	}
 
 	ol, ul {
@@ -2393,12 +2393,18 @@
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("http://pre06.deviantart.net/2847/th/pre/f/2013/349/f/c/aikatsu_group_pose_3_by_rubypearl31-d6y1q7x.png");
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: auto;
+		/* 
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("http://pre06.deviantart.net/2847/th/pre/f/2013/349/f/c/aikatsu_group_pose_3_by_rubypearl31-d6y1q7x.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
+		*/
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
